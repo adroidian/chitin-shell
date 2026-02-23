@@ -1,0 +1,36 @@
+{
+  "name": "chitin-bootstrap",
+  "version": "0.1.0",
+  "description": "Your first secure AI agent in 10 minutes.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "chitin-bootstrap": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js --dry-run"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "openclaw",
+    "security",
+    "trust",
+    "chitin"
+  ],
+  "author": "Chitin.xyz",
+  "license": "Apache-2.0",
+  "homepage": "https://chitin.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adroidian/chitin-bootstrap"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "execa": "^9.0.0",
+    "inquirer": "^12.0.0",
+    "js-yaml": "^4.1.1",
+    "ora": "^8.0.0"
+  }
+}

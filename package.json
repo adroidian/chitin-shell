@@ -1,11 +1,11 @@
 {
-  "name": "chitin-bootstrap",
+  "name": "chitin-shell",
   "version": "0.1.0",
   "description": "Your first secure AI agent in 10 minutes.",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "chitin-bootstrap": "./bin/cli.js"
+    "chitin-shell": "./bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js",
@@ -24,7 +24,7 @@
   "homepage": "https://chitin.xyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adroidian/chitin-bootstrap"
+    "url": "https://github.com/adroidian/chitin-shell"
   },
   "dependencies": {
     "chalk": "^5.0.0",

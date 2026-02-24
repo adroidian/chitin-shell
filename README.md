@@ -1,9 +1,9 @@
-# 🛡️ Chitin Bootstrap
+# 🛡️ Chitin Shell
 
 **Your first secure AI agent in 10 minutes.**
 
 ```bash
-npx chitin-bootstrap
+npx chitin-shell
 ```
 
 No decisions. No configuration files. No security expertise needed.
@@ -24,7 +24,7 @@ Answer 5 questions. Get a production-hardened AI agent with contextual trust bou
 
 Most agent setups are insecure by default because they require users to make security decisions. Every decision is a place to get it wrong.
 
-**Chitin Bootstrap eliminates the decisions.** Security is structural, not optional.
+**Chitin Shell eliminates the decisions.** Security is structural, not optional.
 
 | Feature | Default | User Choice? |
 |---|---|---|
@@ -56,7 +56,7 @@ Most agent setups are insecure by default because they require users to make sec
 Test without making changes:
 
 ```bash
-npx chitin-bootstrap --dry-run
+npx chitin-shell --dry-run
 ```
 
 ## What's Next?

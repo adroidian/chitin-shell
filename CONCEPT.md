@@ -1,4 +1,4 @@
-# Chitin Bootstrap — Zero-Decision Agent Deployment
+# Chitin Shell — Zero-Decision Agent Deployment
 
 > "What would it take for someone like my mom to run this?"
 
@@ -48,7 +48,7 @@ That launches an interactive bootstrapper which:
 ## The Question Flow
 
 ```
-Welcome to Chitin Bootstrap 🛡️
+Welcome to Chitin Shell 🛡️
 
 Let's get your AI agent running. I'll handle the technical stuff.
 You just answer a few questions.
@@ -109,20 +109,20 @@ Key principle: **The user never has to choose security. It's built in.**
 ## Implementation Options
 
 ### Option A: OpenClaw Skill (Fastest)
-- Ship as `chitin-bootstrap` skill on ClawHub
+- Ship as `chitin-shell` skill on ClawHub
 - The skill IS the installer — when triggered, it walks through setup
 - Works within existing OpenClaw ecosystem
 - Limitation: requires OpenClaw to already be installed (chicken-egg)
 
 ### Option B: Standalone CLI (Most Accessible)
-- `npx chitin-bootstrap` or `curl | bash`
+- `npx chitin-shell` or `curl | bash`
 - Installs OpenClaw as part of the process
 - No pre-requisites beyond Node.js
 - Can be distributed independently
 
 ### Option C: OpenClaw Fork / PR (Most Impactful)
 - Contribute the guided setup flow directly to OpenClaw
-- `openclaw init` becomes the Chitin Bootstrap experience
+- `openclaw init` becomes the Chitin Shell experience
 - Reaches the widest audience
 - Requires coordination with OpenClaw maintainers
 
@@ -133,7 +133,7 @@ Build the standalone CLI, prove it works, then propose it upstream as the defaul
 
 The bootstrap is FREE. It creates the funnel:
 
-1. **Free**: `chitin-bootstrap` installs and configures everything
+1. **Free**: `chitin-shell` installs and configures everything
 2. **$29 (Standard)**: "The Vesper Blueprint" explains WHY each choice was made
 3. **$9/mo (Pro)**: Ongoing support, advanced configs, architecture reviews
 
@@ -145,4 +145,4 @@ The free tool builds trust. The guide sells understanding. Pro sells access.
 
 ---
 
-*Chitin Bootstrap is a Chitin.xyz project.*
+*Chitin Shell is a Chitin.xyz project.*

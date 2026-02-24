@@ -17,7 +17,7 @@ Answer 5 questions. Get a production-hardened AI agent with contextual trust bou
 3. **Installs** OpenClaw and your chosen AI provider
 4. **Configures** your agent with secure defaults
 5. **Hardens** your system (UFW firewall, fail2ban, file permissions)
-6. **Deploys** [Chitin Trust Channels](https://github.com/adroidian/chitin-trust-channels) — contextual agent permissions
+6. **Deploys** [Chitin Moat](https://github.com/adroidian/chitin-moat) — contextual agent permissions
 7. **Verifies** everything works
 
 ## The Security Problem

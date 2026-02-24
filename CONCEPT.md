@@ -83,7 +83,7 @@ That's it. Setting up your agent...
 ✅ Your agent "Vesper" is live.
    Send it a message on Telegram to say hello.
 
-🛡️ Trust Channels: ACTIVE
+🛡️ Chitin Moat: ACTIVE
    • Your DM: Sovereign (full access)
    • Everything else: Observer (read-only)
    
